@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-console-log",
+  "version": "1.0.0",
+  "description": "babel插件：扩充console.log打印内容",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "babel": "babel",
+    "test": "jest --verbose --watchAll",
+    "test-cov": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-plugin-tester": "^10.1.0",
+    "jest": "^27.5.1"
+  }
+}
